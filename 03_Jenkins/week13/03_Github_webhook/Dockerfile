@@ -8,7 +8,7 @@ WORKDIR /code
 COPY requirements.txt .
 COPY main.py .
 
-# Install any dependencies
+# Install any dependenciess
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the content of the local src directory to the working directory
