@@ -7,7 +7,7 @@ pipeline {
         DOCKER_CREDENTIALS = credentials('dockerhub')
     }
 
-//Test on jenkinsssssswwwqdsa09di0asdi
+//Test on jenkinsss
 
     stages {
         stage('Start Jenkins') {
